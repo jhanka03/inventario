@@ -5,7 +5,8 @@ const router = Router();
 
 
 /* get */
-router.get("/", categoriaController.getCategorias)
+router.get("/", categoriaController.getCategorias);
+router.post("/", categoriaController.postCategorias);
 
 /* hacemos disponible a router a mi server web */
 
